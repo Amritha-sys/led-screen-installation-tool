@@ -1,0 +1,128 @@
+.container {
+  display: flex;
+  flex-direction: column; /* Align dropdowns vertically */
+  align-items: flex-start;
+  gap: 1rem; /* Add space between dropdowns */
+  padding: 20px;
+  max-width: 400px; /* Restrict width for better UX */
+  margin: 0 auto; /* Center the container */
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light background for the section */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+.input-container,
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+}
+
+.dropdown-container label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.dropdown-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  color: #333;
+}
+
+.dropdown-container select:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow effect */
+}
+
+.dropdown-container select:hover {
+  border-color: #0056b3; /* Darker blue border on hover */
+}
+
+.dropdown-container select option {
+  padding: 5px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column; /* Align form fields vertically */
+  align-items: flex-start;
+  gap: 1rem; /* Add space between form fields */
+  padding: 20px;
+  max-width: 400px; /* Restrict width for better UX */
+  margin: 0 auto; /* Center the container */
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light background for the section */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Ensure input fields take the full width of the container */
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  color: #333;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow effect */
+}
+
+.form-group input:hover,
+.form-group select:hover {
+  border-color: #0056b3; 
+}
+
+.form-group input[type="date"] {
+  color: #666; 
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  align-self: flex-start;
+}
+
+.submit-button:hover {
+  background-color: #0056b3; 
+}
+
+.submit-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+.toggle-button {
+  width: 120px;
+}
