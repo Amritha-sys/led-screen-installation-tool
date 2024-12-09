@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/led-screen-installation-tool/static/css/main.754de08e.css",
+    "main.js": "/led-screen-installation-tool/static/js/main.a2706c36.js",
+    "static/js/213.dcb75299.chunk.js": "/led-screen-installation-tool/static/js/213.dcb75299.chunk.js",
+    "static/js/732.368d2e44.chunk.js": "/led-screen-installation-tool/static/js/732.368d2e44.chunk.js",
+    "index.html": "/led-screen-installation-tool/index.html",
+    "main.754de08e.css.map": "/led-screen-installation-tool/static/css/main.754de08e.css.map",
+    "main.a2706c36.js.map": "/led-screen-installation-tool/static/js/main.a2706c36.js.map",
+    "213.dcb75299.chunk.js.map": "/led-screen-installation-tool/static/js/213.dcb75299.chunk.js.map",
+    "732.368d2e44.chunk.js.map": "/led-screen-installation-tool/static/js/732.368d2e44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.754de08e.css",
+    "static/js/main.a2706c36.js"
+  ]
+}
