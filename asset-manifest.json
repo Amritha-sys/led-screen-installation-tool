@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/led-screen-installation-tool/static/css/main.754de08e.css",
-    "main.js": "/led-screen-installation-tool/static/js/main.91da1cb0.js",
+    "main.css": "/led-screen-installation-tool/static/css/main.8cedc2da.css",
+    "main.js": "/led-screen-installation-tool/static/js/main.cd9c1e0b.js",
     "static/js/213.dcb75299.chunk.js": "/led-screen-installation-tool/static/js/213.dcb75299.chunk.js",
     "static/js/732.368d2e44.chunk.js": "/led-screen-installation-tool/static/js/732.368d2e44.chunk.js",
     "index.html": "/led-screen-installation-tool/index.html",
-    "main.754de08e.css.map": "/led-screen-installation-tool/static/css/main.754de08e.css.map",
-    "main.91da1cb0.js.map": "/led-screen-installation-tool/static/js/main.91da1cb0.js.map",
+    "main.8cedc2da.css.map": "/led-screen-installation-tool/static/css/main.8cedc2da.css.map",
+    "main.cd9c1e0b.js.map": "/led-screen-installation-tool/static/js/main.cd9c1e0b.js.map",
     "213.dcb75299.chunk.js.map": "/led-screen-installation-tool/static/js/213.dcb75299.chunk.js.map",
     "732.368d2e44.chunk.js.map": "/led-screen-installation-tool/static/js/732.368d2e44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.754de08e.css",
-    "static/js/main.91da1cb0.js"
+    "static/css/main.8cedc2da.css",
+    "static/js/main.cd9c1e0b.js"
   ]
 }
