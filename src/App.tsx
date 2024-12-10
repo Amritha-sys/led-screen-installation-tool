@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useRef } from "react";
-import { EquipmentProvider, useEquipmentContext } from "./context/EquipmentContext";
+import React, { useEffect, useRef } from "react";
+import { EquipmentProvider } from "./context/EquipmentContext";
 import EquipmentSelection from "./components/EquipmentSelection";
 import KonvaDrawingDisplay from "./components/DrawingDisplay";
 import { Box, Button } from "@mui/material";
@@ -8,9 +8,7 @@ import html2canvas from "html2canvas";
 import { jsPDF } from "jspdf";
 
 const App: React.FC = () => {
-    const [csvData, setCsvData] = useState<any[]>([]);
     const appRef = useRef<HTMLDivElement>(null);
-    const { selectedModel, setSelectedModel, mountType, setMountType } = useEquipmentContext();
 
     useEffect(() => {
         // Load CSV data (if required)

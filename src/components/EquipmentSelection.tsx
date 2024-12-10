@@ -63,14 +63,14 @@ const EquipmentSelection: React.FC = () => {
         />
       </div>
       {/* Uncomment to use Receptacle Box dropdown */}
-      {/* <div className="dropdown-container">
+      <div className="dropdown-container">
         <Dropdown
           label="Receptacle Box"
           options={receptacleBoxes}
           value={selectedBox}
           onChange={setSelectedBox}
         />
-      </div> */}
+      </div>
     </div>
   );
 };
