@@ -10,10 +10,6 @@ import { jsPDF } from "jspdf";
 const App: React.FC = () => {
     const appRef = useRef<HTMLDivElement>(null);
 
-    useEffect(() => {
-        // Load CSV data (if required)
-    }, []);
-
     const handleDownloadPDF = async () => {
         if (!appRef.current) return;
 
