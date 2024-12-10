@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import * as XLSX from "xlsx";
 import Dropdown from "./Dropdown";
-import "./EquipmentSelection.css";
+// import "./EquipmentSelection.css";
 
 const EquipmentSelection: React.FC = () => {
   const [screenModels, setScreenModels] = useState<string[]>([]);
@@ -12,7 +12,7 @@ const EquipmentSelection: React.FC = () => {
   const [selectedScreen, setSelectedScreen] = useState("");
   const [selectedPlayer, setSelectedPlayer] = useState("");
   const [selectedMount, setSelectedMount] = useState("");
-  const [selectedBox, setSelectedBox] = useState("");
+   const [selectedBox, setSelectedBox] = useState("");
 
   useEffect(() => {
     // Load Excel data
@@ -62,7 +62,7 @@ const EquipmentSelection: React.FC = () => {
           onChange={setSelectedMount}
         />
       </div>
-      {/* Uncomment to use Receptacle Box dropdown */}
+
       <div className="dropdown-container">
         <Dropdown
           label="Receptacle Box"

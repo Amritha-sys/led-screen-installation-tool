@@ -5,7 +5,7 @@ import './DrawingDisplay.css';
 
 const DrawingDisplay = () => {
   const [orientation, setOrientation] = useState<"horizontal" | "vertical">("horizontal");
-  const [installationType, setInstallationType] = useState<"niche" | "flat-wall">("flat-wall");
+  const [installationType, setInstallationType] = useState<"niche" | "flat-wall">("niche");
   const [distanceFromFloor, setDistanceFromFloor] = useState(18); 
   const [nicheHeight, setNicheHeight] = useState(60); 
   const [nicheWidth, setNicheWidth] = useState(50);
