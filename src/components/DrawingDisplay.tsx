@@ -155,6 +155,7 @@ const DrawingDisplay = () => {
             fontSize={14}
             fill="black"
           />
+             {/* Power Outlet*/}
           <Rect
             x={400 - 30}
             y={550 - distanceFromFloor * scale + (screenHeight * scale) / 2 + 10}

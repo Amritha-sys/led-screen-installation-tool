@@ -10,6 +10,10 @@ import { jsPDF } from "jspdf";
 const App: React.FC = () => {
     const appRef = useRef<HTMLDivElement>(null);
 
+    useEffect(() => {
+        // Load CSV data (if required)
+    }, []);
+
     const handleDownloadPDF = async () => {
         if (!appRef.current) return;
 
@@ -31,9 +35,9 @@ const App: React.FC = () => {
     return (
         <EquipmentProvider>
             <div>
-                <h1>LED Screen Installation Tool</h1>
+                <h1 >LED Screen Installation Tool</h1>
                 <Box display="flex" flexDirection="row" gap={5} ref={appRef}>
-                    <KonvaDrawingDisplay />
+                    <Box paddingLeft={5}><KonvaDrawingDisplay /></Box>
                     <Box display="flex" flexDirection="column">
                         <EquipmentSelection />
                         <UserInputForm
